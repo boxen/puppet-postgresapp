@@ -1,13 +1,7 @@
 # Postgres.app Puppet Module for Boxen
 
-Install [Postgres.app](http://postgresapp.com/) via Boxen.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include postgresapp
-```
-
-## Required Puppet Modules
-
-* `boxen`
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
